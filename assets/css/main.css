@@ -2268,3 +2268,53 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+/*--------------------------------------------------------------
+# Barre Sociale Compacte (YouTube & Facebook)
+--------------------------------------------------------------*/
+.social-section-small {
+    padding: 20px 0; /* Très fin et discret */
+    background-color: #37423b; /* Couleur sombre et élégante issue de votre thème Mentor */
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+.btn-social-compact {
+    font-family: var(--heading-font);
+    font-weight: 600;
+    font-size: 15px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    color: #ffffff !important;
+    transition: all 0.3s ease;
+}
+
+    /* Style spécifique YouTube */
+    .btn-social-compact.btn-yt {
+        background-color: #ff0000;
+        border: 2px solid #ff0000;
+    }
+
+        .btn-social-compact.btn-yt:hover {
+            background-color: transparent;
+            color: #ff0000 !important;
+        }
+
+    /* Style spécifique Facebook */
+    .btn-social-compact.btn-fb {
+        background-color: #1877f2;
+        border: 2px solid #1877f2;
+    }
+
+        .btn-social-compact.btn-fb:hover {
+            background-color: transparent;
+            color: #1877f2 !important;
+        }
+
+    .btn-social-compact i {
+        font-size: 1.4rem;
+        line-height: 1;
+    }
